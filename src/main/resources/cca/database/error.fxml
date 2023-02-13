@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+
+
+<DialogPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cca.database.ErrorController">
+   <content>
+      <Label fx:id="err" text="SQL ERROR" />
+   </content>
+   <buttonTypes>
+      <ButtonType fx:constant="OK" />
+   </buttonTypes>
+</DialogPane>
